@@ -1,0 +1,528 @@
+.logo1{
+float:left;
+}
+.bx-menu{
+    display: none;
+  }
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+  }
+
+
+  body{
+     justify-content: center;
+     height: auto;
+     font-family: 'Poppins', sans-serif;
+     
+  }
+  header{
+      position: absolute;
+      top: 0;
+      left:0;
+      width: 100%;
+      padding: 30px 100px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      z-index: 100;
+  
+  }
+  .logo{
+    
+  padding: 10px;
+  transition: 0.3s;
+      margin-right: 270px;
+      border-radius: 25px;
+  color: #fff;
+  font-weight: 600;
+font-size:35px;
+  }
+  .logo:hover{
+      transition: 0.3s;
+  }
+  .navigation{
+      display: flex;
+  }
+  .navigation a{
+  text-decoration: none;
+  color: #ededf5;
+  padding: 10px 15px;
+  border-radius:20px;
+  margin: 0 10px;
+  font-weight:600;
+  
+  }
+   .navigation a:hover,.navigation a.active{
+      background:rgb(206, 9, 106);
+      color: #000000;
+   }
+   .Parallax{
+      justify-content: center;
+   align-items: center;
+      display: flex;
+      position: relative;
+      height: 100vh;
+      background-image: url(assets/foodback.jpg);
+      
+      background-repeat:none;
+      background-size: cover;
+      opacity: 90%;
+      
+   }
+   #texta{
+      position: absolute;
+      font-size: 50px;
+      color: #000000;
+  text-align:start;
+  padding-top: 250px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+  margin-top: 0px;
+  z-index:-3;
+  transition: 0.5s;
+  font-weight:600;
+   }
+  
+   .search{
+      margin-bottom: 170px;
+  background-color: #fff;
+   height: 65px;
+   width: 55%;
+   padding-top:15px;
+   padding-bottom: 17px;
+  z-index: 0;
+  border-radius: 27px;
+  margin-top: 190px;
+     margin-left: 50px;
+      margin-right: -50px;
+      overflow-x:hidden;
+      overflow-y: hidden;
+  
+   }
+   .search .text{
+      position: relative;
+      color: #4070f4;
+      font-size: 27px;
+      font-weight: 600;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  cursor: default;
+  z-index: 0;
+   }
+   
+  
+   .search .text.first-text{
+  color: #000203;
+  margin-left: 50px;
+  justify-items: center;
+  text-align: center;
+  z-index: 0;
+   }
+   
+  
+  
+  
+   #speak{
+      height: 35px;
+      width: 35px;
+      cursor: pointer;
+  float: right;
+  margin-right: 30px;
+  z-index: 2;
+  
+  
+   }
+  
+   .text.sec-text:before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+     width: 100%;
+      background-color:#fff ;
+      border-left: 2px solid;
+      animation:  animate 4s steps(12) infinite;
+      z-index: 0;
+   }
+   @keyframes animate{
+      40%, 60%{
+          left: calc(100% + 4px);
+          
+      }
+      100%{
+          left: 0%;
+      }
+   }
+  
+    .search .bx-search{
+      float: left;
+      margin: 0;
+      text-align: center;
+      font-size: 30px;
+  
+      margin-left: 29px;
+  cursor: pointer;
+    }
+    .search .first-text{
+      text-align: center;
+     margin-left: 20%;
+    }
+  .sec{
+      position: relative;
+      background: #f3faf9;
+    
+      padding: 5px;
+  }
+  .sec .abouthead{
+      text-align: center;
+      font-weight: 400;
+  
+  
+  }
+  .abouthead{
+      padding: 0px 30px 10px 10px;
+      font-size: medium;
+  }
+  .sec .headquotes{
+      font-weight: 600; 
+      text-align: center;
+  margin-left: 25%;
+      justify-content: center;
+  }
+  .headquotes{
+      width: 50%;
+  }
+  .headqts{
+  font-weight: 400;
+  margin-top: 30px;
+  }
+  .quotes{
+      display: block;
+  }
+  
+  
+  
+
+
+  
+  
+
+  
+      .scrollimg
+        {
+            margin-left:30px;
+        }
+        .pizzaimg{
+        height: 170px;
+        width: 170px;
+        z-index: -1;
+        margin-top:725px;
+        position: relative;
+
+        
+
+        }
+
+        
+        .menubar{
+            width: 100%;
+            background: url("assets/food-delivery-takeaway-boxes-blue-background-181694492.jpg");
+            height: auto;
+            padding: 10px;
+              
+      background-repeat:none;
+      background-size: cover;
+        }
+
+       .menubar h2{
+        text-align: center;
+        font-weight: 800;
+        color: rgb(206, 56, 81);
+        
+       }
+       .menu-list{
+
+
+        display:inline-flex;
+        flex-wrap: wrap;
+   
+        height: auto;
+       }
+       .list{
+        margin-left: 70px;
+        background: #f3faf9;
+        border-radius: 20px;
+        text-align: center;
+        width: 25%;
+        height: 480px;
+        margin-bottom: 50px;
+        align-items: center;
+      justify-content: center;
+     
+       }
+       .fooddimg{
+        border-radius: 20px;
+        height:75%;
+        width: 98%;
+        overflow: hidden;
+        z-index: -1;
+margin-bottom: 10px;
+margin-top: 2px;
+       }
+       .cartbutton{
+        padding: 10px;
+          border-radius: 8px;
+
+       }
+       .orderbutton{
+        display: inline-block;
+        padding: 10px;
+        border-radius: 6px;
+        width: 70px;
+       }
+       .cartbutton:hover{
+        background: yellow;
+        color: #000000;
+        border: none;
+        cursor: pointer;
+       }
+       .orderbutton:hover{
+        background-color: rgb(83, 190, 83);
+        color: #000000;
+        outline: none;
+        border: none;
+        cursor: pointer;
+       }
+       
+
+       .Explore-More{
+        display: block;
+   width: 100%;
+   text-align: center;
+margin-bottom: 30px ;
+}
+.Explore-Less{
+    display: none;
+    width: 100%;
+    text-align: center;
+ margin-bottom: 30px ;
+}
+.Explore-Less button{
+    padding: 10px 15px 10px 15px;
+cursor: pointer;
+border: none;
+border-radius:16px;
+background: rgb(167, 24, 167);
+color: white;
+}
+
+.Explore-More button{
+padding: 10px 15px 10px 15px;
+cursor: pointer;
+border: none;
+border-radius:16px;
+background: rgb(167, 24, 167);
+color: white;
+}
+.Explore-More button:hover,.Explore-Less button:hover{
+    background: rgb(136, 70, 136) ;
+
+}
+#listmore{
+    width: 100%;
+    display: none;
+    flex-wrap: wrap;
+transition: 1s;
+}
+#listless{
+    display: none;
+ 
+}
+
+.Restaurents-section{
+    width: 100%;
+   background:url("assets/backhouse.jpeg");
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+.restaurents{
+    width: 27%;
+    background: white;
+    border-radius: 13px;
+    height: auto;
+    padding: 5px;
+margin: 10px;
+display: block;
+}
+.restaurent-header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+font-size: 14px;
+    height: 50px;
+    align-items: center;
+}
+.restaurent-header .bx{
+    float: right;
+   text-align: right;
+   margin-left: 80px;
+}
+.restaurent-header .h6{
+text-align: right;
+
+}
+
+
+.restaurent-img{
+    height: 360px;
+    width: 100%;
+    margin: 0;
+    border-radius: 17px;
+    cursor: pointer;
+}
+.restaurent-btn{
+    text-align: center;
+    padding: 10px;
+    border-radius: 13px;
+   
+    border: none;
+    outline: none;
+    background-color: rgb(233, 54, 129);
+    cursor: pointer;
+    transition: 0.4s;
+    color: white;
+}
+.restaurent-btn:hover{
+    color: black;
+    background: yellow;
+    transition: 0.2s;
+}
+.hotel-head{
+    width: 100%;
+    height: 30px;
+   
+}
+.res-logo{
+    
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.res-logo img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.restaurent-header h6,i{
+    cursor: pointer;
+}
+@media only screen and (max-width: 466px) {
+    body {
+   
+      width: 100%;
+      justify-content: center;
+      height: auto;
+      font-family: 'Poppins', sans-serif;
+      
+      
+    }
+    .navigation {
+        display: none;
+    
+        
+    }
+
+  
+    header{
+        position: absolute;
+        top: 0;
+        left:0;
+        width: 100%;
+       
+        display: flex;
+   
+        align-items: center;
+        z-index: 10;
+    
+    }
+    .bx-menu{
+        float: right;
+        font-size: 30px;
+        display: flex;
+    }
+    .logo {
+        width: 100%;
+        height: 60px;
+        
+    }
+    .Parallax{
+        justify-content: center;
+       
+          
+           position: relative;
+           height: 100vh;
+           background-image: url("assets/foodback.jpg");
+           background-repeat:none;
+           background-size: cover;
+           opacity: 100%;
+           
+
+    }
+    .search{
+        width: 70vh;
+        margin: 0;
+
+    }
+    .search .text{
+        font-size: 20px;
+    }
+    #texta{
+        font-size: 20px;
+margin: 0;
+    }
+    .menu-list{
+        display: inline-flex;
+        width: 100%;
+        margin-left: 0;
+        padding: 5px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+
+    }
+    .list{
+        width: 70vh;
+        padding: 0;
+        margin: 0;
+  text-align: center;
+  margin-bottom: 20px;
+
+    }
+    .fooddimg{
+        width: 80%;
+    }
+    .Restaurents-section{
+        width: 100%;
+       background:url("assets/backhouse.jpeg");
+        display: block;
+      
+       
+    }
+    .restaurents{
+        width: 100%;
+        background: white;
+        border-radius: 13px;
+        height: auto;
+        padding: 5px;
+    margin: 10px;
+    display: block;
+    }
+  }
