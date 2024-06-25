@@ -1,0 +1,348 @@
+
+@media only screen and (max-width: 620px) {
+    body {
+    
+      width: 100%;
+      justify-content: center;
+      height: auto;
+      font-family: 'Poppins', sans-serif;
+      overflow-x: hidden;
+    }
+    .navigation {
+        display: none;
+    
+        
+    }
+    .menuside .navigation-menu{
+        width: 100%;
+        height: 100%;
+    }
+    .navigation-menu a{
+        display: block;
+        background: none;
+        padding: 25px;
+        text-decoration: none;
+        margin-bottom: 3px;
+        border-radius: 13px;
+        color: #fff;
+        text-align: center;
+
+    }
+    .navigation-menu a:hover{
+        background: rgb(230, 77, 235);
+    }
+    .linkdin{
+        background: #0A66C2;
+        
+      }
+      .github{
+      background:#000000;
+     
+      }
+      .gmail{
+      background: #c01919;
+   
+      }
+      .profiles .icon.linkdin path, .profiles .icon.github path, .profiles .icon.gmail path{
+     stroke: #fff;
+      }
+  
+    header{
+        position: absolute;
+        top: 0;
+        left:0;
+        width: 100%;
+       
+        display: flex;
+       
+        align-items: center;
+        z-index: 10;
+    
+    }
+    .menubar{
+        float: right;
+        font-size: 30px;
+        display: flex;
+    }
+    
+    .bx-menu{
+        font-size: 45px;
+    }
+    .logo {
+        width: 100%;
+        height: 60px;
+
+        
+    }
+    .menuside{
+        height: 360px;
+        width: 100%;
+        background: transparent;
+        backdrop-filter:blur(10px);
+        
+        position: absolute;
+        display: block;
+        top: 90%;
+        left: 100%;
+        border-radius: 13px;
+        margin-left: 405px;
+       transition: 3s;
+       display: none;
+       animation: linear forwards;
+    }
+    .profiles .icon.linkdin:hover path,.profiles{
+        animation: animate-linkdin 4s linear forwards;
+        animation-iteration-count:infinite;
+        
+    }
+    .profiles .icon.github:hover path{
+        animation: animate-github 4s linear forwards;
+        animation-iteration-count:infinite;
+    }
+    .profiles .icon.gmail:hover path{
+        animation: animate-gmail 4s linear forwards;
+        animation-iteration-count:infinite;
+    }
+    
+    .Parallax{
+        justify-content: center;
+       
+          
+           position: relative;
+           height: 1100px;
+           background-image: url("img/pixel\ rs.jpg");
+           width:100vh;
+           background-repeat:none;
+           background-size: cover;
+           
+           overflow-y: hidden;
+    }
+  
+    .search{
+        margin-bottom: 170px;
+    background-color: #fff;
+     height: 85px;
+     width: 100%;
+     padding-top:15px;
+     padding-bottom: 17px;
+    z-index: 0;
+    border-radius: 27px;
+    margin-top: 190px;
+       margin-left: 70px;
+        margin-right: -50px;
+        overflow-x: hidden;
+     
+       
+    
+     }
+     #texta{
+        position: absolute;
+        font-size: 25px;
+        color: #000000;
+    text-align:start;
+    padding-top: 280px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    margin-top: 0px;
+    z-index:7;
+    transition: 0.5s;
+    margin-left: 50px;
+     }
+     .sec{
+        position: relative;
+        background: #f3faf9;
+      width: 100vh;
+      height: auto;
+        padding: 5px;
+        display: block;
+    }
+    .sec .headquotes{
+        font-weight: 600; 
+        text-align: center;
+    margin-left: 25%;
+        justify-content: center;
+        font-size: 35px;
+        height: auto;
+        
+    }
+    .headqts{
+        font-weight: 400;
+        margin-top: 60px;
+        font-size: 20px;
+        width: 100vh;
+        height: auto;
+        }
+        .sec2{
+           
+          display: block;
+          width: 100vh;
+         
+      
+        }
+        .sec2 #img1{
+            width: 100%;
+            height: 590px;
+            margin: 0;
+           
+        
+            }
+            .sec2 #img2{
+                width: 100%;
+                height: 590px;
+                margin: 0;
+               
+            
+                }
+                .sec4{
+                    display: block;
+                    width: 100vh;
+                }
+                .sec4 .divcontainer{
+                    width: 100%;
+                    position: relative;     
+                    height: auto;
+                }
+                .divcontainer{
+                    display: block;
+                    text-align: center;
+                }
+                .divcontainer .div1{
+                    width:70vh;
+                    height: auto;
+                    background-color: #fff;
+                    padding: 20px;
+                display: inline-block;
+                border-radius: 15px;
+                }
+                .div1:hover {
+                    width:80vh;
+                    height: auto;
+                 background-color:rgb(116, 39, 160);
+                    transition: 0.7s;
+                    cursor: pointer;
+                    color: #fff;
+                            }
+                            .col-1,.col-2,.col-3{
+                                display: block;
+                            }
+                .techhead{
+                    display: flex;
+                    width: 100%;
+                    height:100px;
+                    
+                    text-align: center;
+                }
+                .techicon {
+                    font-size: 50px;
+                    margin-top: 15px;
+                }
+              .headtech{
+                    text-align: center;
+                    font-size: 35px;
+                }
+                .para-cnt{
+                    font-size: 30px;
+                }
+
+               .col-1{
+                margin-bottom: 20px;
+               }
+               .sec3{
+                height: 80px;
+                width: 100vh;
+                margin-bottom: 0;
+             
+               }
+               .projects{
+                position: relative;
+             
+                height: auto;
+                min-width: 100vh;
+                min-height: 100vh;
+                margin: 0;
+               
+            }
+      
+            .contactmehead{
+                display: inline-block;
+            }
+
+            .image-container{
+height: 450px;
+max-width: 100vh;
+            }
+            .contactme{
+                width: 100vh;
+                display: inline-block;
+                text-align:  center;
+            }
+            .contactme .profiles{
+                width: 90vh;
+                margin-bottom: 30px;
+                display: inline-block;
+                height: 350px;
+            }
+            .linkdin ,.github ,.gmail{
+                margin-bottom: 10px;
+            }
+
+            .contactme .form{
+                width: 100vh;
+            }
+            .mobile ,.email,.message{
+                width: 97vh;
+                
+
+              }
+              .f-name{
+                margin-bottom: 18px;
+              }
+              .f-name,.l-name{
+                width: 97vh;
+                
+              }
+              .message {
+                height: 300px;
+                font-size: 35px;
+              }
+              .mobile ,.email{
+                height: 120px;
+              }
+              .post_input input{
+                height: 75px;
+                border-radius: 44px;
+                font-size: 35px;
+              }
+              .form textarea::placeholder{
+                font-size: 35px;
+              }
+              .submit{
+                padding: 30px;
+                width: 90vh;
+                background: orange;
+                border: none;
+                outline: none;
+              }
+.aboutus{
+    margin-top: 0;
+    position: absolute;
+    width: 100vh;
+}
+.menubar{
+    float: right;
+    margin-left: 90%;
+    margin-top: 20%;
+    cursor: pointer;
+}
+.menubar .bx-x{
+    display: none;
+}
+.menubar .bx-menu{
+    display: block;
+ 
+}
+.aboutme-sec{
+    width: 100vh;
+}
+
+  }
+ 
