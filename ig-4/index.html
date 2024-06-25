@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovativeGoals-A Page to Show My Experimental Goals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="res.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="icon" href="img/gallerylogo.png" class>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <style>
+        @import url('fonts/Lobster_Two/');
+
+        .aboutme-title,
+        .gallery,
+        .ts,
+        .cont-ti {
+
+            font-family: "LobsterTwo";
+            font-weight: 900;
+            font-style: normal;
+            color: orange;
+
+        }
+
+        .contactmehead h2 {
+            font-size: 40px;
+            color: orange;
+        }
+
+        .gallery {
+            font-size: 40px;
+            color: orange;
+        }
+
+        .aboutme-title {
+            font-size: 40px;
+        }
+
+        .ts {
+            font-size: 40px;
+
+        }
+
+        @font-face {
+            src: url('fonts/Lobster_Two/LobsterTwo-Regular.ttf');
+            font-family: "LobsterTwo";
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="img/WhatsApp Image 2024-03-24 at 9.31.28 PM.jpeg" alt="logo" class="logo">
+        <nav class="navigation">
+            <a href="#" class="active"><i class="bx bx-home"></i> Home</a>
+            <a href="#" onclick="aboutme() "><i class="bx bx-user"></i> Aboutme</a>
+            <a href="#" id="projectsauth" ><i class=" bx bxs-rocket"></i> Projects</a>
+            <a href="#" onclick="contactme() "><i class=" bx bx-message-alt"></i> ContactMe</a>
+
+
+        </nav>
+        <div class="menubar"><i class='bx bx-menu' onclick="menuopen()"></i>
+            <i class='bx bx-x' onclick="menucls()"></i>
+        </div>
+        <div class="menuside">
+            <nav class="navigation-menu">
+                <a href="#" class="active"><i class="bx bx-home"></i> Home</a>
+                <a href="#" onclick="aboutme() "><i class="bx bx-user"></i> Aboutme</a>
+                <a href="#" ><i class=" bx bxs-rocket"></i> Projects</a>
+                <a href="#" onclick="contactme() "><i class=" bx bx-message-alt"></i> ContactMe</a>
+
+
+            </nav>
+        </div>
+    </header>
+
+    <section class="Parallax">
+
+        <div class="search">
+
+            <i class='bx bx-search'></i>
+            <span class=" text first-text">I'm a</span>
+            <span class=" text sec-text">Freelancer</span>
+            <img src="img/google-voice.png" id="speak">
+
+
+        </div>
+
+        <h1 id="texta">Unlock your potential, ignite your passion, and<span
+                style="color: blueviolet;margin-left: 7px;">create your future</span>.</h1>
+
+
+
+        <div class="ball"> <img src="img/baloon1.png" alt="airballon" class="air-baloon" id="ballon"></div>
+
+    </section>
+    <section class="sec">
+        <h2 class="abouthead"></h2>
+        <h2 class="headquotes">Your journey to success starts with a single step, and we're here to guide you all the
+            way <span style="color: orange;">All the way </span></h2>
+        <h5 class="headqts">As a developer, I bring more than just technical expertise to the table; I bring a passion
+            for innovation and a commitment to excellence. With a solid foundation in coding languages and a keen eye
+            for detail, I thrive in the dynamic world of software development. My ability to problem-solve and think
+            critically allows me to tackle complex challenges with confidence and creativity. Whether it's building
+            sleek user interfaces or optimizing backend functionality, I approach every project with enthusiasm and a
+            drive to exceed expectations. I am dedicated to staying updated on the latest industry trends and
+            technologies, ensuring that my skills are always at the forefront of innovation. With a proven track record
+            of delivering high-quality solutions on time and within budget, I am ready to contribute my expertise to
+            your team and help drive success in any project we undertake.</h5>
+
+    </section>
+    <section class="sec2">
+        <img id="img1" src="img/laptop (1).jpeg">
+        <img id="img2" src="img/laptop (2).jpeg">
+
+    </section>
+    <section class="sec3">
+        <h4 class="ts" style="  color: orange;">Technical Skills</h4>
+
+    </section>
+    <section class="sec4">
+
+
+
+        <div class="divcontainer">
+
+
+            <div class="col-1">
+
+                <div class="div1" id="techboxgap">
+                    <div class="techhead">
+                        <div class="techicon"> <i class='bx bxl-html5'></i></div>
+                        <div class="headtech">
+                            <h3>WebDevelopment</h3>
+                        </div>
+
+                    </div>
+                    <div class="para-cnt">
+                        Web development involves creating websites and web applications using programming languages like
+                        HTML, CSS, and JavaScript to build interactiveand visually experience.</div>
+                </div>
+                <div class="div1">
+                    <div class="techhead">
+                        <div class="techicon">
+                            <i class='bx bx-code'></i>
+                        </div>
+                        <div class="headtech">
+                            <h3>Programming</h3>
+                        </div>
+
+                    </div>
+                    <div class="para-cnt">
+                        Coding, commands, languages, software, problem-solving, logic, algorithms, teamwork, debugging,
+                        testing, learning.
+                        Programming is the art of instructing computers to perform tasks through code.s</div>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="col-2">
+                <div class="div1" id="techboxgap">
+                    <div class="techhead">
+                        <div class="techicon">
+                            <i class='bx bxs-brain'></i>
+                        </div>
+                        <div class="headtech">
+                            <h3>GenAI</h3>
+                        </div>
+
+                    </div>
+
+                    <div class="para-cnt">GPT (Generative Pre-trained Transformer) AI refers to a class of artificial
+                        intelligence models, such as OpenAI's GPT-3, that are trained on large amounts of text data and
+                        capable of generating human-like text responses .</div>
+                </div>
+                <div class="div1">
+
+                    <div class="techhead">
+                        <div class="techicon">
+                            <i class='bx bxl-google-cloud'></i>
+                        </div>
+                        <div class="headtech">
+                            <h3>Cloud</h3>
+                        </div>
+
+                    </div>
+                    <div class="para-cnt">Google Cloud is a suite of cloud computing services offered by Google,
+                        providing infrastructure as a service, platform as a service , software as a service products
+                        for computing, storage, and data analytics.</div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="div1" id="techboxgap">
+
+                    <div class="techhead">
+                        <div class="techicon">
+                            <i class='bx bxl-visual-studio'></i>
+                        </div>
+                        <div class="headtech">
+                            <h3>Tools</h3>
+                        </div>
+
+                    </div>
+                    <div class="para-cnt">Tools are software applications designed to assist completing tasks
+                        efficiently and effectively. Tools can range from simple utilities to complex integrated
+                        development environments (IDEs) for software development.</div>
+                </div>
+                <div class="div1" id="techboxgap">
+                    <div class="techhead">
+                        <div class="techicon">
+                            <i class='bx bx-rocket'></i>
+                        </div>
+                        <div class="headtech">
+                            <h3>Automation</h3>
+                        </div>
+
+                    </div>
+                    <div class="para-cnt">Automation refers to the process of using technology to perform tasks
+                        automatically, reducing manual effort and increasing efficiency in various fields such as
+                        manufacturing, business operations, and software testing.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main swiper mySwiper">
+        <div class="wrapper swiper-wrapper">
+            <div class="slide swiper-slide">
+                <img src="img/gallery (3).jpeg" alt="" class="image" />
+                <div class="image-data">
+                    <span class="text">Empowering e-commerce dreams, one click.</span>
+                    <h2>
+                        In the silence of lines of code,<br /> find serenity
+
+                    </h2>
+                    <a href="#" class="button"> Explore</a>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="img/img2.png" alt="" class="image" />
+                <div class="image-data">
+                    <span class="text">From our cart to your heart.</span>
+                    <h2>
+                        Discover, click, and own it.
+                    </h2>
+
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="img/gallery (1).jpeg" alt="" class="image" />
+                <div class="image-data">
+                    <span class="text">Find solace in the simplicity of syntax.</span>
+                    <h2>
+                        In the realm of algorithms, <br />find your peaceful algorithm.
+                    </h2>
+
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="img/gallery (2).jpeg" alt="" class="image" />
+                <div class="image-data">
+                    <span class="text">Making Our Code peaceful.</span>
+                    <h2>
+                        Embrace the peaceful flow of <br />problem-solving through programming.
+                    </h2>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <section class="aboutme-sec" id="aboutme">
+        <div class="aboutme-title">AboutMe</div>
+        <div class="aboutme-container">
+            <p class="aboutme-p">Hello, I am Sanjay Raju, a passionate individual with a keen interest in technology and
+                software
+                development. My journey into the world of programming and technology began at VSB
+                Engineering College in Karur, where I pursued my education. During my college years, I
+                discovered my love for coding and delved into various aspects of software development. I
+                found joy in creating mobile games, exploring the intersection of creativity and technology.
+                My hobby of creating and playing mobile games not only provided entertainment but also
+                sparked my curiosity about the underlying software that powers these experiences.
+                With a solid foundation in computer science from College, I am driven by the ambition to
+                become a proficient software developer. I aspire to contribute to the ever-evolving tech
+                industry, where innovation and problem-solving skills are paramount. My goal is to expand my
+                knowledge and expertise in software development, staying abreast of the latest technologies
+                and methodologies. I am excited about the prospect of making meaningful contributions to the
+                field and creating software solutions that can positively impact the world.As a Full-Stack
+                Developer, I bring a diverse skill set to the table, combining both front-end and back-end
+                expertise. Here’s how I’d summarize my experience:
+                PHP: Proficient in developing large-scale web applications using PHP and PHP frameworks.
+                Python: Skilled in Python programming, with experience in creating robust and efficient
+                solutions.
+                HTML/CSS/JavaScript: Well-versed in building responsive and user-friendly web interfaces
+                using HTML, CSS, and JavaScript (including libraries like jQuery and Angular.js).
+                Java: Familiar with Java and its application in server-side development.
+                Firebase: Knowledgeable about Firebase for real-time database management and authentication.
+                Throughout my career, I’ve contributed to various projects, integrating third-party APIs,
+                optimizing code, and ensuring seamless user experiences. My passion lies in creating
+                scalable, data-driven applications that make a positive impact.</p>
+        </div>
+        <div class="contactmehead" style="display: block;background-color: rgb(240, 248, 255);" id="c-me">
+            <h2 class="cont-ti">ContactMe</h2>
+        </div>
+        <div class="contactme" style="background-color: rgb(240, 248, 255); border: none;">
+
+            <div class="profiles">
+                <div class="linkdin" onclick='window.open("http://www.linkedin.com/in/sanjayraju2")'>
+                    <div class="icon linkdin" id="iconlink"><svg width="70px" height="70px" viewBox="0 0 24 24"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z"
+                                fill="#0F0F0F" />
+                            <path
+                                d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z"
+                                fill="#0F0F0F" />
+                            <path
+                                d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z"
+                                fill="#0F0F0F" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+                                fill="#0F0F0F" />
+                        </svg></div>
+
+
+                </div>
+
+
+                <div class="gmail" onclick='window.open("mailto:sanjayraju264@gmail.com")'>
+                    <div class="icon gmail" id="icongmail">
+                        <svg fill="#000000" width="70px" height="70px" viewBox="0 0 32 32" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>Mail</title>
+                            <path
+                                d="M30.996 7.824v17.381c0 0 0 0 0 0.001 0 1.129-0.915 2.044-2.044 2.044-0 0-0 0-0.001 0h-4.772v-11.587l-8.179 6.136-8.179-6.136v11.588h-4.772c0 0 0 0-0 0-1.129 0-2.044-0.915-2.044-2.044 0-0 0-0.001 0-0.001v0-17.381c0-0 0-0.001 0-0.001 0-1.694 1.373-3.067 3.067-3.067 0.694 0 1.334 0.231 1.848 0.619l-0.008-0.006 10.088 7.567 10.088-7.567c0.506-0.383 1.146-0.613 1.84-0.613 1.694 0 3.067 1.373 3.067 3.067v0z">
+                            </path>
+                        </svg>
+                    </div>
+
+                </div>
+                <div class="github" onclick='window.open("https://github.com/sanjay1882")'>
+
+                    <div class="icon github" id="icongit">
+                        <svg width="70px" height="70px" viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <style>
+                                    .cls-1 {
+                                        fill: none;
+                                        stroke: #000000;
+                                        stroke-linecap: round;
+                                        stroke-linejoin: round;
+                                        fill-rule: evenodd;
+                                    }
+                                </style>
+                            </defs>
+                            <path class="cls-1"
+                                d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="form">
+
+                <form action="" class="post_input">
+                    <input name="f-name" placeholder="First Name" class="f-name" id="fname" required>
+                    <input name="l-name" placeholder="Lastname" class="l-name" id="lname" required><br><br>
+                    <input type="text" name="Mobile" placeholder="Mobile Number" id="mobile" class="mobile"
+                        required><br><br>
+                    <input type="mail" name="mail" placeholder="Email" class="email" id="mail" required><br><br>
+                    <textarea placeholder="Message" class="message" id="message" required></textarea><br><br><br>
+                    <input type="submit" placeholder="Submit" class="submit" id="submit" >
+                </form>
+
+            </div>
+            <div class="msgsent" id="msgsent-bar">
+                <h2 class="succalert">Thankyou for your Feedback </h2>
+                <i class='bx bx-x' id="msgsuc" onclick="msgsentcls()"></i>
+            </div>
+        </div>
+        <div class="aboutus">
+            <section class="footer">
+                <div class="footer-row">
+                    <div class="footer-col">
+                        <h4>Info</h4>
+                        <ul class="links">
+                            <li><a href="#">About Us</a></li>
+
+                            <li><a href="#">Customers</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Collection</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Explore</h4>
+                        <ul class="links">
+                            <li><a href="#">Free Designs</a></li>
+                            <li><a href="#">Latest Designs</a></li>
+                            <li><a href="#">Themes</a></li>
+                            <li><a href="#">Popular Designs</a></li>
+                            <li><a href="#">Art Skills</a></li>
+                            <li><a href="#">New Uploads</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Legal</h4>
+                        <ul class="links">
+                            <li><a href="#">Customer Agreement</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">GDPR</a></li>
+                            <li><a href="#">Security</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Send Mail</h4>
+                        <p>
+                            Send a Mail for a
+                            new ideas, updates, helpful tips, and
+                            others.
+                        </p>
+                        <form action="#">
+                            <input type="text" placeholder="Your email" required>
+                            <button type="submit">Send</button>
+                        </form>
+                        <div class="icons">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+
+    <script type="module">
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js" defer></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+        import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
+        import { getAuth ,GoogleAuthProvider ,getRedirectResult,signInWithRedirect} from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyBDoFWeOuajcinwG9YDKkVnFTU6voDMXvA",
+            authDomain: "innovativegoals-1ddf3.firebaseapp.com",
+            databaseURL: "https://innovativegoals-1ddf3-default-rtdb.firebaseio.com",
+            projectId: "innovativegoals-1ddf3",
+            storageBucket: "innovativegoals-1ddf3.appspot.com",
+            messagingSenderId: "544150628076",
+            appId: "1:544150628076:web:3fb7d73ccb2dc30045e7c9",
+            measurementId: "G-N02CNFJX9Y"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        const provider = new GoogleAuthProvider(app);
+
+
+   document.getElementById("projectsauth").addEventListener('click',(e)=>{
+    signInWithRedirect(auth, provider);
+    getRedirectResult(auth)
+  .then((result) => {
+    // This gives you a Google Access Token. You can use it to access Google APIs.
+    const credential = GoogleAuthProvider.credentialFromResult(result);
+    const token = credential.accessToken;
+
+    // The signed-in user info.
+    const user = result.user;
+    // IdP data available using getAdditionalUserInfo(result)
+    // ...
+  }).catch((error) => {
+    // Handle Errors here.
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    // The email of the user's account used.
+    const email = error.customData.email;
+    // The AuthCredential type that was used.
+    const credential = GoogleAuthProvider.credentialFromError(error);
+    // ...
+  });
+})
+            const db = getDatabase(app);
+            document.getElementById("submit").addEventListener("click", function(e){
+   
+                document.getElementById("lname").value
+               const  fname= document.getElementById("fname").value;
+                const lname=document.getElementById("lname").value;
+                const fullname=fname+lname;
+            set(ref(db, 'user/' + fname +lname ), {
+                Firstname: document.getElementById("fname").value,
+                Lasttname: document.getElementById("lname").value,
+                Mobile: document.getElementById("mobile").value,
+                Email: document.getElementById("mail").value,
+                Message: document.getElementById("message").value,
+            });
+            
+
+        
+
+}
+
+)
+
+    
+        
+
+    </script>
+</body>
+
+</html>

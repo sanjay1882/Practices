@@ -1,0 +1,131 @@
+@media only screen and (max-width:705px) {
+
+    .menubar {
+        display: none;
+    }
+
+ 
+    .m-menu{
+        display: flex;
+        color: white;
+        display: flex;
+        float: right;
+        margin-right: 30px;
+        font-size: 30px;
+        margin-top: -10px;
+    }
+
+
+    .floating-menu {
+        display: block;
+        width: 60%;
+        float: right;
+        height: auto;
+        background: transparent;
+        border: 1px solid gray;
+        backdrop-filter: blur(100px);
+        border-radius: 10px;
+        border-top: none;
+        margin-right: -460px;
+        transition: 0.3s;
+        margin-top: -960px;
+        
+
+       
+    }
+
+    
+    
+    
+    
+        .list {
+            display: block;
+            margin-top: 30px;
+    
+        }
+    
+        .list li {
+            border: none;
+            color: white;
+    
+            padding: 20px;
+            display: block;
+            border-radius: 24px;
+            text-align: center;
+            margin-bottom: 40px;
+    
+        }
+    
+        .list li:hover {
+            background: #7e61e7;
+            padding: 20px;
+            color: white;
+            border-radius: 24px;
+        }
+    
+        .list button {
+    
+            padding: 20px;
+            display: block;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 40px;
+            height: 60px;
+            width: 94%;
+            margin-left: 2;
+            margin-right: 4;
+            background: rgb(206, 9, 106);
+            color: white;
+            cursor: pointer;
+        }
+    
+    
+    .explorearea{
+        overflow-x: hidden;
+        display:fit-content;
+    }
+
+
+
+    .list {
+        display: block;
+        margin-top: 30px;
+
+    }
+
+    .list li {
+        border: none;
+        color: white;
+
+        padding: 20px;
+        display: block;
+        border-radius: 24px;
+        text-align: center;
+        margin-bottom: 40px;
+
+    }
+
+    .list li:hover {
+        background: #7e61e7;
+        padding: 20px;
+        color: white;
+        border-radius: 24px;
+    }
+
+    .list button {
+
+        padding: 20px;
+        display: block;
+        border-radius: 12px;
+        text-align: center;
+        margin-bottom: 40px;
+        height: 60px;
+        width: 94%;
+        margin-left: 2;
+        margin-right: 4;
+        background: rgb(206, 9, 106);
+        color: white;
+        cursor: pointer;
+    }
+
+}
